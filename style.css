@@ -14,8 +14,15 @@ p {
     text-align: center;
 }
 
+:root {
+    --dark-bg: #1F2937;
+    --light-bg: #E5E7EB;
+    --primary-blue: #3882F6;
+    --white: #F9FAF8;
+}
+
 .hero-container {
-    background-color: #1f2937;
+    background-color: var(--dark-bg);
     display:flex;
     flex-direction: column;
     padding: 20px 350px 150px 350px;
@@ -24,7 +31,7 @@ p {
 .header {
     display:flex;
     justify-content: space-between;
-    color: #e6e7eb;
+    color: var(--white);
     font-size: 18px;
     align-items: center;
     margin-bottom: 80px;
@@ -52,20 +59,20 @@ p {
 
 .hero-title {
     font-size: 48px;
-    color: #f9faf8;
+    color: var(--white);
     font-weight: 900;
     margin: 0px;
 }
 
 .hero-subtext {
     font-size: 18px;
-    color: #e6e7eb;
+    color: var(--light-bg);
     margin: 0 0 20px 0;
 }
 
 .hero-button {
-    background-color: #3b82f6;
-    color: #f9faf8;
+    background-color: var(--primary-blue);
+    color: var(--white);
     border: none;
     padding: 10px 30px;
     font-size: 18px;
@@ -91,7 +98,7 @@ p {
 .box-title {
     display:flex;
     justify-content: center;
-    color: #1f2937;
+    color: var(--dark-bg);
     font-size: 36px;
     font-weight: 900;
     margin: 0 0 40px 0;
@@ -108,7 +115,7 @@ p {
 .box {
     width: 150px;
     height: 150px;
-    border: 4px solid #3882f6;
+    border: 4px solid var(--primary-blue);
     border-radius: 15px;
 }
 
@@ -120,7 +127,7 @@ p {
 }
 
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: var(--light-bg);
     padding: 100px 0;
 }
 
@@ -133,14 +140,14 @@ p {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1F2937;
+    color: var(--dark-bg);
 }
 
 .quote-subtext {
     text-align: right;
     font-size: 24px;
     font-weight: 700;
-    color: #1F2937;
+    color: var(--dark-bg);
     margin-top: 10px;
 }
 
@@ -152,7 +159,7 @@ p {
 
 .cta-content {
     display:flex;
-    background-color: #3882f6;
+    background-color: var(--primary-blue);
     justify-content: space-around;
     align-items: center;
     border-radius: 15px;
@@ -163,7 +170,7 @@ p {
 .text-wrapper {
     display:flex;
     flex-direction: column;
-    color:#f9faf8
+    color: var(--white);
 }
 
 .cta-title {
@@ -177,9 +184,9 @@ p {
 }
 
 .cta-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    border: 2px solid #f9faf8;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border: 2px solid var(--white);
     border-radius: 10px;
     padding: 10px 30px;
     font-size: 16px;
@@ -191,8 +198,8 @@ p {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
-    color: #e6e7eb;
+    background-color: var(--dark-bg);
+    color: var(--light-bg);
     padding: 20px 0;
     font-size: 18px;
 }
