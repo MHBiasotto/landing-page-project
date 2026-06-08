@@ -21,6 +21,8 @@ p {
     --white: #F9FAF8;
 }
 
+/* Hero / Header section */
+
 .hero-container {
     background-color: var(--dark-bg);
     display:flex;
@@ -89,6 +91,8 @@ p {
     border-radius: 5px;
 }
 
+/* Box section */
+
 .box-container {
     display:flex;
     flex-direction: column;
@@ -126,6 +130,8 @@ p {
     width: 150px;
 }
 
+/* Quote section */
+
 .quote-container {
     background-color: var(--light-bg);
     padding: 100px 0;
@@ -150,6 +156,8 @@ p {
     color: var(--dark-bg);
     margin-top: 10px;
 }
+
+/* Call to Action section */
 
 .cta-container {
     display:flex;
@@ -193,6 +201,8 @@ p {
     cursor: pointer;
     font-weight: 900;
 }
+
+/* Footer section */
 
 .footer {
     display:flex;
